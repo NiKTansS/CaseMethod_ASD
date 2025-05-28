@@ -3,12 +3,13 @@ public class Mahasiswa {
   String nama;
   String prodi;
 
-  Mahasiswa(String nim, String nama, String prodi) {
-      this.nim = nim;
+  // Constructor: Dipanggil saat membuat objek Mahasiswa baru
+  Mahasiswa(String nimNiky, String nama, String prodi) { //Parameter
+      nim = nimNiky;
       this.nama = nama;
       this.prodi = prodi;
   }
-
+  //method
   void tampilMahasiswa() {
       System.out.println("NIM: " + nim + " | Nama: " + nama + " | Prodi: " + prodi);
   }
